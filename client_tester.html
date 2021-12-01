@@ -30,6 +30,7 @@
     let session = {
         "SpeechRecognitionAlternative": [],
     };
+    let maxLengthSession = 5;
 
     window.addEventListener("DOMContentLoaded", () => {
         // HTML formatting
@@ -38,7 +39,7 @@
         const main = document.getElementsByTagName("main")[0];
 
         // include Web Speech API
-        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
         // start listening if the button is pressed
         if (typeof SpeechRecognition === "undefined") {
@@ -64,12 +65,17 @@
             // send results to the tester console and JSON file
             const onResult = event => {
                 for (const res of event.results) {
-                    printConsole(res);
-                    printHTML(res); // print results on the webpage
-                    jsonExp(res[0].transcript, res[0].confidence, res.isFinal);
+                    // limit array size to globally defined maximum length
+                    if (session.SpeechRecognitionAlternative.length >= maxLengthSession) session.SpeechRecognitionAlternative.length = (maxLengthSession - 1);
+                    // push new transcript, confidence and isFinal to the beginning of the array
+                    session.SpeechRecognitionAlternative.splice(0,0,{"transcript": res[0].transcript, "confidence": res[0].confidence, "isFinal": res.isFinal})
+                }
+                aj(session); // post newly updated array to JSON file (include last isFinal res if listening = false)
+                if (!session.length){
+                    printConsole(); //print results in the console log
+                    printHTML(); // print results on the webpage
                 }
             };
-
             recognition.continuous = true; // give continuous access to the mic
             recognition.interimResults = true; // print also non-Final results
             //recognition.lang = 'en-US'; // specify language preference
@@ -83,30 +89,30 @@
         }
 
         //copy and print altered format of data event.results into console HTML
-        function printConsole(res){
-            if(res.isFinal){
+        function printConsole(){
+           if (session.SpeechRecognitionAlternative[0].isFinal) {
                 console.group("%cSpeechRecognitionResult{}:", "font-weight: bold");
-                console.log("%ctranscript: " + res[0].transcript, "font-weight: bold");
-                console.log("%cconfidence: " + res[0].confidence, "font-weight: bold");
-                console.log("%cisFinal: " + res.isFinal,"font-weight: bold");
+                console.log("%ctranscript: " + session.SpeechRecognitionAlternative[0].transcript, "font-weight: bold");
+                console.log("%cconfidence: " + session.SpeechRecognitionAlternative[0].confidence, "font-weight: bold");
+                console.log("%cisFinal: " + session.SpeechRecognitionAlternative[0].isFinal, "font-weight: bold");
                 console.groupEnd();
             } else {
                 console.group("SpeechRecognitionAlternative{}:");
-                console.log("transcript: " + res[0].transcript);
-                console.log("confidence: " + res[0].confidence);
-                console.log("isFinal: " + res.isFinal);
+                console.log("transcript: " + session.SpeechRecognitionAlternative[0].transcript);
+                console.log("confidence: " + session.SpeechRecognitionAlternative[0].confidence);
+                console.log("isFinal: " + session.SpeechRecognitionAlternative[0].isFinal);
                 console.groupEnd();
             }
         }
 
-        function printHTML(res){
+        function printHTML(){
             result.innerHTML = "";
             confidence_id.innerHTML = "";
 
             //print in HTML: create new objects for data
-            const text = document.createTextNode(res[0].transcript);
+            const text = document.createTextNode(session.SpeechRecognitionAlternative[0].transcript);
             const p1 = document.createElement("p");
-            const confidence = document.createTextNode(res[0].confidence);
+            const confidence = document.createTextNode(session.SpeechRecognitionAlternative[0].confidence);
             const p2 = document.createElement("p");
 
             //print in HTML: filtered data: finalResult text + confidence
@@ -114,12 +120,6 @@
             p2.appendChild(confidence);
             result.appendChild(p1);
             confidence_id.appendChild(p2);
-        }
-
-        // export transcript, confidence and isFinal to JSON
-        function jsonExp(getTranscript, getConfidence, getFinal){
-            session.SpeechRecognitionAlternative.push({"transcript": getTranscript, "confidence": getConfidence, "isFinal": getFinal});
-            aj(session);
         }
 
         // post data to server
