@@ -23,7 +23,7 @@ function loadData(){
 function drawTranscript(json){
     var transcript = json.SpeechRecognitionAlternative;
     background(0);
-    //textAlign(CENTER);
+    textAlign(CENTER);
     textSize(32);
     fill(255);
     //else{
@@ -48,9 +48,30 @@ function drawTranscript(json){
         // else {
         //     textAlign(CENTER);
         // }
-        text(transcript[i].transcript, random(width), height-(50*i));
+        if(transcript[0].isFinal) {
+            //for(let i = 0; i < transcript.length; i++){
+                //if(transcript[i].isFinal) {
+                    let mode = int(random(2));
+                    switch (mode) {
+                        case 0:
+                            background(0);
+                            text(transcript[0].transcript, width / 2, height / 2);
+                            console.log(i);
+                            break;
+                        case 1:
+                            background(0);
+                            text(transcript[0].confidence, width / 2, height / 2);
+                            console.log(i);
+                            break;
+                    }
+               // }
+            //}
+        }
+        else {
+            text(transcript[i].transcript, random(50, width-50), height - (50 * i));
+        }
     }
-    console.log(transcript);
+    //console.log(transcript);
     counter++;
 
 //   for (int i = 0; i < SpeechRecognitionAlternative.size(); i++) {

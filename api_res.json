@@ -1,253 +1,143 @@
 {
   "SpeechRecognitionAlternative": [
     {
-      "transcript": "w20 cloning loser I can I see you now I hope you're my friend and I dying",
-      "confidence": 0.9219768047332764,
+      "transcript": " did needs",
+      "confidence": 0.8626906871795654,
       "isFinal": true
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now I hope you're my friend and I dying",
+      "transcript": "think of the European entities",
+      "confidence": 0.8848811984062195,
+      "isFinal": true
+    },
+    {
+      "transcript": " did needs",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": " dying",
+      "transcript": "think of the European entities",
+      "confidence": 0.8848811984062195,
+      "isFinal": true
+    },
+    {
+      "transcript": " did needs",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now I hope you're my friend and I",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
+      "transcript": "think of the European entities",
+      "confidence": 0.8848811984062195,
+      "isFinal": true
     },
     {
-      "transcript": " I dying",
+      "transcript": " and it needs to",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now I hope you're my friend and",
+      "transcript": "think of the European entities",
+      "confidence": 0.8848811984062195,
+      "isFinal": true
+    },
+    {
+      "transcript": " did needs",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": " and I dying",
+      "transcript": "think of the European entities",
+      "confidence": 0.8848811984062195,
+      "isFinal": true
+    },
+    {
+      "transcript": " did needs",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now I hope you're my friend",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
+      "transcript": "think of the European entities",
+      "confidence": 0.8848811984062195,
+      "isFinal": true
     },
     {
-      "transcript": " and I don't",
+      "transcript": " and it needs",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now I hope you're my friend",
+      "transcript": "think of the European entities",
+      "confidence": 0.8848811984062195,
+      "isFinal": true
+    },
+    {
+      "transcript": "think of the European entities",
+      "confidence": 0.8848811984062195,
+      "isFinal": true
+    },
+    {
+      "transcript": "think of the European countries",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": " and I",
+      "transcript": " European countries",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now I hope you're my friend",
+      "transcript": "think of the",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": " and",
+      "transcript": "think of the uvula",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " uvula",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now I hope you're my friend",
+      "transcript": "think of the",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now I hope you're my friend",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " you're my friend",
+      "transcript": "think of the European",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now I hope",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " your friend",
+      "transcript": "think of the year",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now I hope",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " I hope you're maybe",
+      "transcript": "thank God by",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "wto cloning lose your eyes I see you now",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " I hope you're",
+      "transcript": "think of the",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " I hope",
+      "transcript": "thank God",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "wto cloning lose your eyes I see you now",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " can't",
+      "transcript": "Lincoln",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "wto cloning lose your eyes I see you now",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " now can't",
+      "transcript": "think",
       "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "wto cloning lose your eyes I see you",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " now",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "wto cloning lose your eyes I see you",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " eyes I see you now",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "wto cloning lose your",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " eyes I see you in",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "wto cloning lose your",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " eyes I see you",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "wto cloning lose your",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "wto cloning lose your eye",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " cloning lose your eye",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "wto",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " clone a loser I",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "wto",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " cloning lose your eyes",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "wto",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " clone a loser I",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "wto",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " lose your",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "wto cloning",
-      "confidence": 0.8999999761581421,
       "isFinal": false
     }
   ]

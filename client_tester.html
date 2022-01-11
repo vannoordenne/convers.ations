@@ -91,18 +91,21 @@
 
         //copy and print altered format of data event.results into console HTML
         function printConsole(){
-           if (session.SpeechRecognitionAlternative[0].isFinal) {
-                console.group("%cSpeechRecognitionResult{}:", "font-weight: bold");
-                console.log("%ctranscript: " + session.SpeechRecognitionAlternative[0].transcript, "font-weight: bold");
-                console.log("%cconfidence: " + session.SpeechRecognitionAlternative[0].confidence, "font-weight: bold");
-                console.log("%cisFinal: " + session.SpeechRecognitionAlternative[0].isFinal, "font-weight: bold");
+            if (session.SpeechRecognitionAlternative[0].isFinal) {
+                console.group("SpeechRecognitionResult{}:");
+                console.log("transcript: %o", session.SpeechRecognitionAlternative[0].transcript);
+                console.log("confidence: %o ", session.SpeechRecognitionAlternative[0].confidence);
+                console.log("isFinal: %o", session.SpeechRecognitionAlternative[0].isFinal);
                 console.groupEnd();
+                //console.log("%c", "font-weight: bold", session.SpeechRecognitionAlternative[0]);
             } else {
                 console.group("SpeechRecognitionAlternative{}:");
-                console.log("transcript: " + session.SpeechRecognitionAlternative[0].transcript);
-                console.log("confidence: " + session.SpeechRecognitionAlternative[0].confidence);
-                console.log("isFinal: " + session.SpeechRecognitionAlternative[0].isFinal);
+                console.log("transcript: %o",  session.SpeechRecognitionAlternative[0].transcript);
+                console.log("confidence: %o ", session.SpeechRecognitionAlternative[0].confidence);
+                console.log("isFinal: %o", session.SpeechRecognitionAlternative[0].isFinal);
                 console.groupEnd();
+                //console.log(session.SpeechRecognitionAlternative[0]);
+
             }
         }
 
@@ -142,7 +145,7 @@
 
                 },
             });
-        };
+        }
     });
 
 </script>
