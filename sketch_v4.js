@@ -36,19 +36,19 @@ function drawTranscript(json){
         //     //background(0);
         //     //text(transcript[i].transcript, width/2, height-(50*i));
         // }
-        xPos = transcript[i].confidence;
-        let newX = mapX(xPos);
-        if (newX < (width/2)-100){
-            textAlign(LEFT);
-            console.log("test");
-        }
-        else if (newX > (width/2)+100){
-            textAlign(RIGHT);
-        }
-        else {
-            textAlign(CENTER);
-        }
-        text(transcript[i].transcript, newX, height-(50*i));
+        //xPos = transcript[i].confidence;
+        //let newX = mapX(xPos);
+        // if (newX < (width/2)-100){
+        //     textAlign(LEFT);
+        //     console.log("test");
+        // }
+        // else if (newX > (width/2)+100){
+        //     textAlign(RIGHT);
+        // }
+        // else {
+        //     textAlign(CENTER);
+        // }
+        text(transcript[i].transcript, random(width), height-(50*i));
     }
     console.log(transcript);
     counter++;
