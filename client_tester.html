@@ -70,14 +70,15 @@
                     // push new transcript, confidence and isFinal to the beginning of the array
                     session.SpeechRecognitionAlternative.splice(0,0,{"transcript": res[0].transcript, "confidence": res[0].confidence, "isFinal": res.isFinal})
                 }
-                aj(session); // post newly updated array to JSON file (include last isFinal res if listening = false)
                 if (!session.length){
                     printConsole(); //print results in the console log
                     printHTML(); // print results on the webpage
+                    aj(session); // post newly updated array to JSON file (include last isFinal res if listening = false)
                 }
             };
             recognition.continuous = true; // give continuous access to the mic
             recognition.interimResults = true; // print also non-Final results
+            recognition.maxAlternatives = 50;
             //recognition.lang = 'en-US'; // specify language preference
             recognition.addEventListener("result", onResult);
 
