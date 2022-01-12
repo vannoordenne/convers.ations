@@ -147,8 +147,14 @@
                 },
             });
         }
+
     });
 
+    // activate button when you click the screen
+    document.body.onmousedown = function() {
+        document.getElementById("button").click();
+        console.log("click");
+    };
 
 </script>
 
