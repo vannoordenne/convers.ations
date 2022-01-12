@@ -44,22 +44,22 @@
         // start listening if the button is pressed
         if (typeof SpeechRecognition === "undefined") {
             button.remove();
-            // const message = document.getElementById("message");
-            // message.removeAttribute("hidden");
-            // message.setAttribute("aria-hidden", "false");
+             const message = document.getElementById("message");
+             message.removeAttribute("hidden");
+             message.setAttribute("aria-hidden", "false");
         } else {
             let listening = false;
             const recognition = new SpeechRecognition();
             const start = () => {
                 recognition.start();
                 button.textContent = "stop";
-                //main.classList.add("speaking");
+                main.classList.add("speaking");
             };
 
             const stop = () => {
                 recognition.stop();
                 button.textContent = "start";
-               // main.classList.remove("speaking");
+                main.classList.remove("speaking");
             };
 
             // send results to the tester console and JSON file
@@ -72,13 +72,13 @@
                 }
                 if (!session.length){
                     printConsole(); //print results in the console log
-                   // printHTML(); // print results on the webpage
+                    printHTML(); // print results on the webpage
                     aj(session); // post newly updated array to JSON file (include last isFinal res if listening = false)
                 }
             };
             recognition.continuous = true; // give continuous access to the mic
             recognition.interimResults = true; // print also non-Final results
-            recognition.maxAlternatives = 50;
+            //recognition.maxAlternatives = 50;
             //recognition.lang = 'en-US'; // specify language preference
             recognition.addEventListener("result", onResult);
 
@@ -110,22 +110,22 @@
         }
 
 
-        // function printHTML(){
-        //     result.innerHTML = "";
-        //     confidence_id.innerHTML = "";
-        //
-        //     //print in HTML: create new objects for data
-        //     const text = document.createTextNode(session.SpeechRecognitionAlternative[0].transcript);
-        //     const p1 = document.createElement("p");
-        //     const confidence = document.createTextNode(session.SpeechRecognitionAlternative[0].confidence);
-        //     const p2 = document.createElement("p");
-        //
-        //     //print in HTML: filtered data: finalResult text + confidence
-        //     p1.appendChild(text);
-        //     p2.appendChild(confidence);
-        //     result.appendChild(p1);
-        //     confidence_id.appendChild(p2);
-        // }
+        function printHTML(){
+            result.innerHTML = "";
+            //confidence_id.innerHTML = "";
+
+            //print in HTML: create new objects for data
+            const text = document.createTextNode(session.SpeechRecognitionAlternative[0].transcript);
+            const p1 = document.createElement("p");
+            // const confidence = document.createTextNode(session.SpeechRecognitionAlternative[0].confidence);
+            // const p2 = document.createElement("p");
+
+            //print in HTML: filtered data: finalResult text + confidence
+            p1.appendChild(text);
+            //p2.appendChild(confidence);
+            result.appendChild(p1);
+            //confidence_id.appendChild(p2);
+        }
 
         // post data to server
         function aj(jsData){

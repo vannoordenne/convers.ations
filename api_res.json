@@ -1,143 +1,253 @@
 {
   "SpeechRecognitionAlternative": [
     {
-      "transcript": " did needs",
-      "confidence": 0.8626906871795654,
+      "transcript": "can you hear me out if it works no it doesn't work anymore",
+      "confidence": 0.939000129699707,
       "isFinal": true
     },
     {
-      "transcript": "think of the European entities",
-      "confidence": 0.8848811984062195,
-      "isFinal": true
-    },
-    {
-      "transcript": " did needs",
+      "transcript": "can you hear me to check it out if it works no it doesn't work anymore",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": "think of the European entities",
-      "confidence": 0.8848811984062195,
-      "isFinal": true
-    },
-    {
-      "transcript": " did needs",
+      "transcript": " anymore",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "think of the European entities",
-      "confidence": 0.8848811984062195,
-      "isFinal": true
-    },
-    {
-      "transcript": " and it needs to",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "think of the European entities",
-      "confidence": 0.8848811984062195,
-      "isFinal": true
-    },
-    {
-      "transcript": " did needs",
+      "transcript": "can you hear me to check it out if it works no it doesn't work",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": "think of the European entities",
-      "confidence": 0.8848811984062195,
-      "isFinal": true
-    },
-    {
-      "transcript": " did needs",
+      "transcript": " work anymore",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "think of the European entities",
-      "confidence": 0.8848811984062195,
-      "isFinal": true
-    },
-    {
-      "transcript": " and it needs",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "think of the European entities",
-      "confidence": 0.8848811984062195,
-      "isFinal": true
-    },
-    {
-      "transcript": "think of the European entities",
-      "confidence": 0.8848811984062195,
-      "isFinal": true
-    },
-    {
-      "transcript": "think of the European countries",
+      "transcript": "can you hear me to check it out if it works no it doesn't",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": " European countries",
+      "transcript": " work any",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "think of the",
+      "transcript": "can you hear me to check it out if it works no it doesn't",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": "think of the uvula",
+      "transcript": " no it doesn't work at",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "can you hear me to check it out if it works",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": " uvula",
+      "transcript": " no it doesn't work",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "think of the",
+      "transcript": "can you hear me to check it out if it works",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": "think of the European",
+      "transcript": " no it doesn't",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "think of the year",
+      "transcript": "can you hear me to check it out if it works",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " now",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "thank God by",
+      "transcript": "can you hear me to check it out if it works",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": "can you hear me to check it out if it works",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " it works",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "think of the",
+      "transcript": "can you hear me to check it out if",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " if it works",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "thank God",
+      "transcript": "can you hear me to check it out",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " if it'll work",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "Lincoln",
+      "transcript": "can you hear me to check it out",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": "can you hear me to check it out",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " to check it out",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "think",
+      "transcript": "can you hear me",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " to check it out if",
       "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "can you hear me",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " to check it out",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "can you hear me",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": "can you hear me",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " me",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "can you hear",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " hear me",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "can you",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " you hear",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "can",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": "can you hear",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "can you",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "can",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "turn",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "hello how are you doing then Shake it Out dance to give an area I don't know is it up",
+      "confidence": 0.8199060559272766,
+      "isFinal": true
+    },
+    {
+      "transcript": " yes it's",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "hello how are you doing then shake it out to give another I don't know",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " is it up",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "hello how are you doing then shake it out to give another I don't know",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " is it",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "hello how are you doing then shake it out to give another I don't know",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " yet",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "hello how are you doing then shake it out to give another I don't know",
+      "confidence": 0.8999999761581421,
       "isFinal": false
     }
   ]

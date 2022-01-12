@@ -2,6 +2,7 @@ var counter = 1;
 var xPos;
 var yPos;
 let font;
+var transcriptIsFinal =[" "];
 
 function preload() {
     font = loadFont("Oswald-VariableFont_wght.ttf");
@@ -22,6 +23,7 @@ function loadData(){
 
 function drawTranscript(json){
     var transcript = json.SpeechRecognitionAlternative;
+
     background(0);
     textAlign(CENTER);
     textSize(32);
@@ -31,6 +33,11 @@ function drawTranscript(json){
     textSize(14);
 
     //}
+
+    if (transcript[0].isFinal && (JSON.stringify(transcript[0].transcript) != JSON.stringify(transcriptIsFinal[0].transcript))){
+        transcriptIsFinal.splice(0,0,transcript[0]);
+    }
+
     for(let i = 0; i < transcript.length; i++){
         // if(transcript[0].isFinal == true){
         //     //background(0);
@@ -52,16 +59,17 @@ function drawTranscript(json){
             //for(let i = 0; i < transcript.length; i++){
                 //if(transcript[i].isFinal) {
                     let mode = int(random(2));
+                    let sel = int(random(transcriptIsFinal.length));
                     switch (mode) {
                         case 0:
                             background(0);
-                            text(transcript[0].transcript, width / 2, height / 2);
-                            console.log(i);
+                            text(transcriptIsFinal[sel].transcript, width / 2, height / 2);
+                            //console.log(i);
                             break;
                         case 1:
                             background(0);
-                            text(transcript[0].confidence, width / 2, height / 2);
-                            console.log(i);
+                            text(transcriptIsFinal[sel].confidence, width / 2, height / 2);
+                            //console.log(i);
                             break;
                     }
                // }
