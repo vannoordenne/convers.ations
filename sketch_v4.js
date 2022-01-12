@@ -2,9 +2,10 @@ var counter = 1;
 var xPos;
 var yPos;
 let font;
-var transcriptIsFinal =[" "];
+var transcriptIsFinal =[{"transcript": "nul komma negen", "confidence": 0.9}, {"transcript": "nul komma acht", "confidence": 0.8}, {"transcript": "null komma zeven", "confidence": 0.7},{"transcript": "nul komma zes", "confidence": 0.6}, {"transcript": "nul komma vijf", "confidence": 0.5}, {"transcript": "null komma vier", "confidence": 0.4},{"transcript": "nul komma drie", "confidence": 0.3}, {"transcript": "nul komma twee", "confidence": 0.2}, {"transcript": "null komma een", "confidence": 0.1}," "];
 let showTranscript = true;
-
+let sel = 0;
+let fade = 30;
 
 function preload() {
     font = loadFont("Oswald-VariableFont_wght.ttf");
@@ -35,7 +36,8 @@ function drawTranscript(json){
     textSize(14);
 
     //}
-
+    //length of array is dependent on the gradient of fade. If fill is black, element is popped out of array
+    if (transcriptIsFinal.length >= (255 / fade)) transcriptIsFinal.length = (floor(255 / fade) - 1);
     if (transcript[0].isFinal && (JSON.stringify(transcript[0].transcript) != JSON.stringify(transcriptIsFinal[0].transcript))){
         transcriptIsFinal.splice(0,0,transcript[0]);
     }
@@ -57,21 +59,25 @@ function drawTranscript(json){
         // else {
         //     textAlign(CENTER);
         // }
+
         if(transcript[0].isFinal) {
             //for(let i = 0; i < transcript.length; i++){
                 //if(transcript[i].isFinal) {
-            let sel = int(random(transcriptIsFinal.length-1));
-
                         if (showTranscript == true) {
                             background(0);
+                            push();
+                            fill(255-(fade*sel));
                             text(transcriptIsFinal[sel].transcript, width / 2, height / 2);
-                            console.log(sel);
+                            pop();
                             showTranscript = false;
                             //break;
                         } else {
                             background(0);
+                            push();
+                            fill(255-(fade*sel));
                             text(transcriptIsFinal[sel].confidence, width / 2, height / 2);
-                            console.log(sel);
+                            pop();
+                            sel = int(random(transcriptIsFinal.length-1));
                             showTranscript = true;
                            //break;
                         }
