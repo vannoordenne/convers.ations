@@ -3,6 +3,8 @@ var xPos;
 var yPos;
 let font;
 var transcriptIsFinal =[" "];
+let showTranscript = true;
+
 
 function preload() {
     font = loadFont("Oswald-VariableFont_wght.ttf");
@@ -58,20 +60,38 @@ function drawTranscript(json){
         if(transcript[0].isFinal) {
             //for(let i = 0; i < transcript.length; i++){
                 //if(transcript[i].isFinal) {
-                    let mode = int(random(2));
-                    let sel = int(random(transcriptIsFinal.length));
-                    switch (mode) {
-                        case 0:
+            let sel = int(random(transcriptIsFinal.length-1));
+
+                        if (showTranscript == true) {
                             background(0);
                             text(transcriptIsFinal[sel].transcript, width / 2, height / 2);
-                            //console.log(i);
-                            break;
-                        case 1:
+                            console.log(sel);
+                            showTranscript = false;
+                            //break;
+                        } else {
                             background(0);
                             text(transcriptIsFinal[sel].confidence, width / 2, height / 2);
-                            //console.log(i);
-                            break;
-                    }
+                            console.log(sel);
+                            showTranscript = true;
+                           //break;
+                        }
+                        break;
+            //         switch (mode) {
+            //             case 1:
+            //                 background(0);
+            //                 text(transcriptIsFinal[sel].transcript, width / 2, height / 2);
+            //
+            //                 //console.log(i);
+            //                 break;
+            //             case -1:
+            //                 background(0);
+            //                 text(transcriptIsFinal[sel].confidence, width / 2, height / 2);
+            //
+            //                 //console.log(i);
+            //                 sel ++;
+            //                 break;
+            //         }
+            // mode = mode * -1;
                // }
             //}
         }
