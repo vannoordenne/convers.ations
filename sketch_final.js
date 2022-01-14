@@ -25,7 +25,7 @@ function preload() {
 
 function setup() {
     frameRate(1);
-    createCanvas(1680, 920);
+    createCanvas(1680, 920); // 1275x3, 710x4 voor BigEye
     background(0);
     loadData();
     setInterval(loadData, 1000);
@@ -41,7 +41,7 @@ function drawTranscript(json) {
 
     background(0);
     textAlign(CENTER);
-    textSize(32);
+    textSize(42);
     fill(255);
 
     //length of array is dependent on the gradient of fade. If fill is black, element is popped out of array
@@ -56,6 +56,7 @@ function drawTranscript(json) {
             if (showTranscript == true) {
                 background(0);
                 push();
+                textSize(50);
                 fill(255 - (fade * sel));
                 text(transcriptIsFinal[sel].transcript, width / 2, height / 2);
                 pop();
@@ -64,6 +65,7 @@ function drawTranscript(json) {
             } else {
                 background(0);
                 push();
+                textSize(50);
                 fill(255 - (fade * sel));
                 text(transcriptIsFinal[sel].confidence, width / 2, height / 2);
                 pop();
@@ -79,6 +81,7 @@ function drawTranscript(json) {
         } else {
             text(transcript[i].transcript, random(50, width - 50), height - (100 * i));
             sel = 0;
+            showTranscript = true;
         }
     }
     counter++;
