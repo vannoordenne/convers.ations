@@ -13,7 +13,7 @@
 
 <main>
     <div id="result"></div>
-    <button id="button">start</button>
+    <button id="button"></button>
     <p id="message" hidden aria-hidden="true">
         Your browser doesn't support Speech Recognition.
     </p>
@@ -60,13 +60,13 @@
             const recognition = new SpeechRecognition();
             const start = () => {
                 recognition.start();
-                button.textContent = "stop";
+                // button.textContent = "stop";
                 main.classList.add("speaking");
             };
 
             const stop = () => {
                 recognition.stop();
-                button.textContent = "start";
+                // button.textContent = "start";
                 main.classList.remove("speaking");
             };
 
