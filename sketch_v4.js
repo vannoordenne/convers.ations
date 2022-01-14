@@ -77,7 +77,14 @@ function drawTranscript(json){
                             fill(255-(fade*sel));
                             text(transcriptIsFinal[sel].confidence, width / 2, height / 2);
                             pop();
-                            sel = int(random(transcriptIsFinal.length-1));
+                           // sel = int(random(transcriptIsFinal.length-1));
+                            if(sel<transcriptIsFinal.length-1){
+                                sel++;
+                            }
+                            else {
+                                sel = 0;
+                            }
+
                             showTranscript = true;
                            //break;
                         }
@@ -103,6 +110,7 @@ function drawTranscript(json){
         }
         else {
             text(transcript[i].transcript, random(50, width-50), height - (50 * i));
+            sel = 0;
         }
     }
     //console.log(transcript);

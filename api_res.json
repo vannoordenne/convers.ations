@@ -1,254 +1,254 @@
 {
   "SpeechRecognitionAlternative": [
     {
-      "transcript": " next",
-      "confidence": 0.8694639205932617,
+      "transcript": " he's just not sure about the game you so maybe I have to give him something more",
+      "confidence": 0.9380401372909546,
       "isFinal": true
     },
     {
-      "transcript": "we can talk",
-      "confidence": 0.9387252330780029,
+      "transcript": " my voice then",
+      "confidence": 0.7817584872245789,
       "isFinal": true
     },
     {
-      "transcript": " next",
+      "transcript": " no somebody there",
+      "confidence": 0.884484589099884,
+      "isFinal": true
+    },
+    {
+      "transcript": " hello",
+      "confidence": 0.9427362680435181,
+      "isFinal": true
+    },
+    {
+      "transcript": " no I don't give a s*** about it no no",
+      "confidence": 0.9515329599380493,
+      "isFinal": true
+    },
+    {
+      "transcript": "hello",
+      "confidence": 0.9427374005317688,
+      "isFinal": true
+    },
+    {
+      "transcript": " he's just not sure about the game you so maybe I have to give him something more",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": "we can talk",
-      "confidence": 0.9387252330780029,
+      "transcript": " my voice then",
+      "confidence": 0.7817584872245789,
       "isFinal": true
     },
     {
-      "transcript": " next",
+      "transcript": " no somebody there",
+      "confidence": 0.884484589099884,
+      "isFinal": true
+    },
+    {
+      "transcript": " hello",
+      "confidence": 0.9427362680435181,
+      "isFinal": true
+    },
+    {
+      "transcript": " no I don't give a s*** about it no no",
+      "confidence": 0.9515329599380493,
+      "isFinal": true
+    },
+    {
+      "transcript": "hello",
+      "confidence": 0.9427374005317688,
+      "isFinal": true
+    },
+    {
+      "transcript": " more",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "we can talk",
-      "confidence": 0.9387252330780029,
-      "isFinal": true
-    },
-    {
-      "transcript": "we can talk",
-      "confidence": 0.9387252330780029,
-      "isFinal": true
-    },
-    {
-      "transcript": "we can talk",
+      "transcript": " he's just not sure about the game you so maybe I have to give him something",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": "we can talk",
+      "transcript": " my voice then",
+      "confidence": 0.7817584872245789,
+      "isFinal": true
+    },
+    {
+      "transcript": " no somebody there",
+      "confidence": 0.884484589099884,
+      "isFinal": true
+    },
+    {
+      "transcript": " hello",
+      "confidence": 0.9427362680435181,
+      "isFinal": true
+    },
+    {
+      "transcript": " no I don't give a s*** about it no no",
+      "confidence": 0.9515329599380493,
+      "isFinal": true
+    },
+    {
+      "transcript": "hello",
+      "confidence": 0.9427374005317688,
+      "isFinal": true
+    },
+    {
+      "transcript": " something more",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "Kintore",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " don't know right now whether you understand what I am saying",
-      "confidence": 0.9369714856147766,
-      "isFinal": true
-    },
-    {
-      "transcript": " can you still",
-      "confidence": 0.8180040717124939,
-      "isFinal": true
-    },
-    {
-      "transcript": " ok so it switches from one to the other and then like that",
-      "confidence": 0.9401527643203735,
-      "isFinal": true
-    },
-    {
-      "transcript": " you can't",
-      "confidence": 0.9210324883460999,
-      "isFinal": true
-    },
-    {
-      "transcript": " he done",
-      "confidence": 0.7404632568359375,
-      "isFinal": true
-    },
-    {
-      "transcript": " the only thing that I would like to do is when you are 32 days that if it gas",
-      "confidence": 0.916305422782898,
-      "isFinal": true
-    },
-    {
-      "transcript": " what is interesting to see is that right now you see the things you've said before I'm playing to the background or the most recent things stayed up friend",
-      "confidence": 0.9335882067680359,
-      "isFinal": true
-    },
-    {
-      "transcript": " can I see something interesting and see how it will go",
-      "confidence": 0.9380744695663452,
-      "isFinal": true
-    },
-    {
-      "transcript": "hello how are you doing let's test this one more time",
-      "confidence": 0.9395191073417664,
-      "isFinal": true
-    },
-    {
-      "transcript": " right now whether you understand what I am saying",
+      "transcript": " he's just not sure about the game you so maybe I have to give him",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": " can you still",
-      "confidence": 0.8180040717124939,
+      "transcript": " my voice then",
+      "confidence": 0.7817584872245789,
       "isFinal": true
     },
     {
-      "transcript": " ok so it switches from one to the other and then like that",
-      "confidence": 0.9401527643203735,
+      "transcript": " no somebody there",
+      "confidence": 0.884484589099884,
       "isFinal": true
     },
     {
-      "transcript": " you can't",
-      "confidence": 0.9210324883460999,
+      "transcript": " hello",
+      "confidence": 0.9427362680435181,
       "isFinal": true
     },
     {
-      "transcript": " he done",
-      "confidence": 0.7404632568359375,
+      "transcript": " no I don't give a s*** about it no no",
+      "confidence": 0.9515329599380493,
       "isFinal": true
     },
     {
-      "transcript": " the only thing that I would like to do is when you are 32 days that if it gas",
-      "confidence": 0.916305422782898,
+      "transcript": "hello",
+      "confidence": 0.9427374005317688,
       "isFinal": true
     },
     {
-      "transcript": " what is interesting to see is that right now you see the things you've said before I'm playing to the background or the most recent things stayed up friend",
-      "confidence": 0.9335882067680359,
-      "isFinal": true
-    },
-    {
-      "transcript": " can I see something interesting and see how it will go",
-      "confidence": 0.9380744695663452,
-      "isFinal": true
-    },
-    {
-      "transcript": "hello how are you doing let's test this one more time",
-      "confidence": 0.9395191073417664,
-      "isFinal": true
-    },
-    {
-      "transcript": " what I am saying",
+      "transcript": " something",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " right now whether you understand",
+      "transcript": " he's just not sure about the game you so maybe I have to give him",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": " can you still",
-      "confidence": 0.8180040717124939,
+      "transcript": " my voice then",
+      "confidence": 0.7817584872245789,
       "isFinal": true
     },
     {
-      "transcript": " ok so it switches from one to the other and then like that",
-      "confidence": 0.9401527643203735,
+      "transcript": " no somebody there",
+      "confidence": 0.884484589099884,
       "isFinal": true
     },
     {
-      "transcript": " you can't",
-      "confidence": 0.9210324883460999,
+      "transcript": " hello",
+      "confidence": 0.9427362680435181,
       "isFinal": true
     },
     {
-      "transcript": " he done",
-      "confidence": 0.7404632568359375,
+      "transcript": " no I don't give a s*** about it no no",
+      "confidence": 0.9515329599380493,
       "isFinal": true
     },
     {
-      "transcript": " the only thing that I would like to do is when you are 32 days that if it gas",
-      "confidence": 0.916305422782898,
+      "transcript": "hello",
+      "confidence": 0.9427374005317688,
       "isFinal": true
     },
     {
-      "transcript": " what is interesting to see is that right now you see the things you've said before I'm playing to the background or the most recent things stayed up friend",
-      "confidence": 0.9335882067680359,
-      "isFinal": true
-    },
-    {
-      "transcript": " can I see something interesting and see how it will go",
-      "confidence": 0.9380744695663452,
-      "isFinal": true
-    },
-    {
-      "transcript": "hello how are you doing let's test this one more time",
-      "confidence": 0.9395191073417664,
-      "isFinal": true
-    },
-    {
-      "transcript": " and I am so",
+      "transcript": " him something",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " right now whether you understand",
+      "transcript": " he's just not sure about the game you so maybe I have to give",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": " can you still",
-      "confidence": 0.8180040717124939,
+      "transcript": " my voice then",
+      "confidence": 0.7817584872245789,
       "isFinal": true
     },
     {
-      "transcript": " ok so it switches from one to the other and then like that",
-      "confidence": 0.9401527643203735,
+      "transcript": " no somebody there",
+      "confidence": 0.884484589099884,
       "isFinal": true
     },
     {
-      "transcript": " you can't",
-      "confidence": 0.9210324883460999,
+      "transcript": " hello",
+      "confidence": 0.9427362680435181,
       "isFinal": true
     },
     {
-      "transcript": " he done",
-      "confidence": 0.7404632568359375,
+      "transcript": " no I don't give a s*** about it no no",
+      "confidence": 0.9515329599380493,
       "isFinal": true
     },
     {
-      "transcript": " the only thing that I would like to do is when you are 32 days that if it gas",
-      "confidence": 0.916305422782898,
+      "transcript": "hello",
+      "confidence": 0.9427374005317688,
       "isFinal": true
     },
     {
-      "transcript": " what is interesting to see is that right now you see the things you've said before I'm playing to the background or the most recent things stayed up friend",
-      "confidence": 0.9335882067680359,
-      "isFinal": true
-    },
-    {
-      "transcript": " can I see something interesting and see how it will go",
-      "confidence": 0.9380744695663452,
-      "isFinal": true
-    },
-    {
-      "transcript": "hello how are you doing let's test this one more time",
-      "confidence": 0.9395191073417664,
-      "isFinal": true
-    },
-    {
-      "transcript": " and I am",
+      "transcript": " him some",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " right now whether you understand",
+      "transcript": " he's just not sure about the game you so maybe I have to give",
       "confidence": 0.8999999761581421,
       "isFinal": false
+    },
+    {
+      "transcript": " my voice then",
+      "confidence": 0.7817584872245789,
+      "isFinal": true
+    },
+    {
+      "transcript": " no somebody there",
+      "confidence": 0.884484589099884,
+      "isFinal": true
+    },
+    {
+      "transcript": " hello",
+      "confidence": 0.9427362680435181,
+      "isFinal": true
+    },
+    {
+      "transcript": " no I don't give a s*** about it no no",
+      "confidence": 0.9515329599380493,
+      "isFinal": true
+    },
+    {
+      "transcript": "hello",
+      "confidence": 0.9427374005317688,
+      "isFinal": true
+    },
+    {
+      "transcript": " give him some",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " he's just not sure about the game you so maybe I have to",
+      "confidence": 0.8999999761581421,
+      "isFinal": false
+    },
+    {
+      "transcript": " my voice then",
+      "confidence": 0.7817584872245789,
+      "isFinal": true
     }
   ]
 }
