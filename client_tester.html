@@ -11,20 +11,28 @@
 
 <body>
 
-<!--<header>-->
-<!--    <h1>convers.ations - tester view</h1>-->
-<!--</header>-->
-
 <main>
-    <button id="button">start</button>
     <div id="result"></div>
-    <div id="confidence_id"></div>
+    <button id="button">start</button>
     <p id="message" hidden aria-hidden="true">
         Your browser doesn't support Speech Recognition.
     </p>
+<!--    <div id="log"></div>-->
 </main>
 
 <script type="text/javascript">
+
+    // (function () {
+    //     var old = console.log;
+    //     var logger = document.getElementById('log');
+    //     console.log = function (message) {
+    //         if (typeof message == 'object') {
+    //             logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : message) + '<br />';
+    //         } else {
+    //             logger.innerHTML += message + '<br />';
+    //         }
+    //     }
+    // })();
 
     // create object to send to JSON file
     let session = {
@@ -115,7 +123,7 @@
             //confidence_id.innerHTML = "";
 
             //print in HTML: create new objects for data
-            const text = document.createTextNode(session.SpeechRecognitionAlternative[0].transcript);
+            const text = document.createTextNode(" ");
             const p1 = document.createElement("p");
             // const confidence = document.createTextNode(session.SpeechRecognitionAlternative[0].confidence);
             // const p2 = document.createElement("p");
@@ -149,12 +157,6 @@
         }
 
     });
-
-    // activate button when you click the screen
-    // document.body.onmousedown = function() {
-    //     document.getElementById("button").click();
-    //     console.log("click");
-    // };
 
 </script>
 
