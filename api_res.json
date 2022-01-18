@@ -1,254 +1,89 @@
 {
   "SpeechRecognitionAlternative": [
     {
-      "transcript": " I don't know if I like this better it is",
+      "transcript": "one more time and see both thanks",
+      "confidence": 0.8216641545295715,
+      "isFinal": true
+    },
+    {
+      "transcript": " pictures",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " it thank you",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " thank you",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " both thanks",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " thank",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "one more time and see",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " better it is",
+      "transcript": " both",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " I don't know if I like this",
+      "transcript": "one more time and see",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " I don't know if I like this bedroom",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " bedroom",
+      "transcript": " see",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " I don't know if I like this",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " this bedroom",
+      "transcript": " and see",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " I don't know if I like",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " this better",
+      "transcript": " and",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " I don't know if I like",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " I like this better",
+      "transcript": " is",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " I don't know if",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " I like this bed",
+      "transcript": " time is",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " I don't know if",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " I like this by",
+      "transcript": " time",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " I don't know if",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " I like this",
+      "transcript": "one more time",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " I don't know if",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " if I like the",
+      "transcript": "one more",
       "confidence": 0.009999999776482582,
       "isFinal": false
-    },
-    {
-      "transcript": " I don't know",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " if I like",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " I don't know",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " know if I like",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " I don't",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " know if I'll",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " I don't",
-      "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " I don't know if I'll",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " I don't know if I",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " I don't know if",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " I don't know",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
-    },
-    {
-      "transcript": " I don't",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "hey hello so this is the other option it looks really breaking out with that's because it's for that King",
-      "confidence": 0.9390667080879211,
-      "isFinal": true
     }
   ]
 }
