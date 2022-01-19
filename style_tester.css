@@ -41,15 +41,16 @@ main {
        opacity: 0%;
     }
 }
+
 button.listening {
-animation: pulse 1.5s infinite;
+    animation: pulse 1.5s infinite;
 }
+
 #result {
    color: black;
 }
 #result.final {
     color: black;
-    font-style: normal;
 }
 
 button {

@@ -12,7 +12,6 @@
 <body>
 
 <main>
-    <div id="result"></div>
     <button id="button"></button>
     <p id="message" hidden aria-hidden="true">
         Your browser doesn't support Speech Recognition.
@@ -26,50 +25,46 @@
         "SpeechRecognitionAlternative": [],
     };
     let maxLengthSession = 50;
-    let counter = 0;
+    let titleGroup;
 
     window.addEventListener("DOMContentLoaded", () => {
-        // HTML formatting
+        // get HTML button
         const button = document.getElementById("button");
-       const result = document.getElementById("result");
-       const main = document.getElementsByTagName("main")[0];
 
         // include Web Speech API
         const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
-        // start listening if the button is pressed
+        // check if browser supports SpeechRecognition and if not do this
         if (typeof SpeechRecognition === "undefined") {
-            button.remove();
+             button.remove();
              const message = document.getElementById("message");
              message.removeAttribute("hidden");
              message.setAttribute("aria-hidden", "false");
+        // if browser supports SpeechRecognition start listening if button is pressed
         } else {
             let listening = false;
             const recognition = new SpeechRecognition();
             const start = () => {
                 recognition.start();
-                main.classList.add("speaking");
             };
-
             const stop = () => {
                 recognition.stop();
-                main.classList.remove("speaking");
             };
 
             // send results to the tester console and JSON file
             const onResult = event => {
                 if (session.SpeechRecognitionAlternative.length >= maxLengthSession) session.SpeechRecognitionAlternative.length = (maxLengthSession - 1);
-                session.SpeechRecognitionAlternative.splice(0,0,{"transcript": event.results[event.results.length - 1][0].transcript, "confidence": event.results[event.results.length - 1][0].confidence, "isFinal": event.results[event.results.length - 1].isFinal})
-
-                if (!session.length){
-                    printConsole(); //print results in the console log
-                    printHTML(); // print results on the webpage
-                    aj(session); // post newly updated array to JSON file (include last isFinal res if listening = false)
-                }
+                session.SpeechRecognitionAlternative.splice(0,0, {
+                    "transcript": event.results[event.results.length - 1][0].transcript,
+                    "confidence": event.results[event.results.length - 1][0].confidence,
+                    "isFinal": event.results[event.results.length - 1].isFinal
+                })
+                printConsole(); //print results in the console log
+                ajax(session); // post newly updated array to JSON file (include last isFinal res if listening = false)
             };
+
             recognition.continuous = true; // give continuous access to the mic
             recognition.interimResults = true; // print also non-Final results
-            //recognition.maxAlternatives = 1; //will this help?
             //recognition.lang = 'en-US'; // specify language preference
             recognition.addEventListener("result", onResult);
 
@@ -82,37 +77,18 @@
 
         //copy and print altered format of data event.results into console HTML
         function printConsole(){
-            if (session.SpeechRecognitionAlternative[0].isFinal) {
-                console.group("SpeechRecognitionResult{}:");
-                console.log("transcript: %o", session.SpeechRecognitionAlternative[0].transcript);
-                console.log("confidence: %o ", session.SpeechRecognitionAlternative[0].confidence);
-                console.log("isFinal: %o", session.SpeechRecognitionAlternative[0].isFinal);
-                console.groupEnd();
-            } else {
-                console.group("SpeechRecognitionAlternative{}:");
-                console.log("transcript: %o",  session.SpeechRecognitionAlternative[0].transcript);
-                console.log("confidence: %o ", session.SpeechRecognitionAlternative[0].confidence);
-                console.log("isFinal: %o", session.SpeechRecognitionAlternative[0].isFinal);
-                console.groupEnd();
-
-            }
-        }
-
-
-        function printHTML(){
-            result.innerHTML = "";
-
-            //print in HTML: create new objects for data
-            const text = document.createTextNode(" ");
-            const p1 = document.createElement("p");
-
-            //print in HTML: filtered data: finalResult text + confidence
-            p1.appendChild(text);
-            result.appendChild(p1);
+            // if isFinal is true titleGroup is result, if not true titleGroup is Alternative
+            session.SpeechRecognitionAlternative[0].isFinal ? titleGroup = "SpeechRecognitionResult{}:" : titleGroup = "SpeechRecognitionAlternative{}:";
+            // print all variables as group in the console
+            console.group(titleGroup);
+            console.log("transcript: %o", session.SpeechRecognitionAlternative[0].transcript);
+            console.log("confidence: %o ", session.SpeechRecognitionAlternative[0].confidence);
+            console.log("isFinal: %o", session.SpeechRecognitionAlternative[0].isFinal);
+            console.groupEnd();
         }
 
         // post data to server
-        function aj(jsData){
+        function ajax(jsData){
             $.ajax({
                 url: 'http://127.0.0.1:8090/',
                 //dataType: "jsonp", // linked to the callback function
