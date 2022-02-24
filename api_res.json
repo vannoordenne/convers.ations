@@ -1,17 +1,37 @@
 {
   "SpeechRecognitionAlternative": [
     {
-      "transcript": "hello how are you doing I'm doing fine thank you",
-      "confidence": 0.9530134201049805,
+      "transcript": " thank you very much",
+      "confidence": 0.934951901435852,
       "isFinal": true
     },
     {
-      "transcript": "hello how are you doing I'm doing fine thank you",
+      "transcript": " thank you very much",
       "confidence": 0.8999999761581421,
       "isFinal": false
     },
     {
-      "transcript": " you",
+      "transcript": " much",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " very much",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " you very much",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " you very",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " thank you very",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
@@ -26,68 +46,108 @@
       "isFinal": false
     },
     {
-      "transcript": " fine thank",
+      "transcript": " no ok so now we don't have any problems",
+      "confidence": 0.9546767473220825,
+      "isFinal": true
+    },
+    {
+      "transcript": " problems",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " fine",
+      "transcript": " any problems",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " I'm doing",
+      "transcript": " any problem",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " and",
+      "transcript": " any",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": "hello how are you doing",
+      "transcript": " have any",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " have a",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " have",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " don't have",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " don't",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " we don't",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " now we do",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " so now we",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " so now",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " ok so now",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " ok so",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " ok",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " no ok",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " no",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": "hello",
+      "confidence": 0.9427374005317688,
+      "isFinal": true
+    },
+    {
+      "transcript": "hello",
       "confidence": 0.8999999761581421,
-      "isFinal": false
-    },
-    {
-      "transcript": " doing",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " do",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " you do",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " you",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " are you",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " how are",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " how",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "hello how",
-      "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
@@ -96,119 +156,64 @@
       "isFinal": false
     },
     {
-      "transcript": " my",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " put still on even talk",
-      "confidence": 0.804438591003418,
+      "transcript": " thank you we have no hours do we",
+      "confidence": 0.7579323053359985,
       "isFinal": true
     },
     {
-      "transcript": " only joke",
+      "transcript": " errors TUI",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " can't even talk",
+      "transcript": " eres tu",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " on",
+      "transcript": " errors to",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " put still on",
+      "transcript": " errors",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " put still",
+      "transcript": " no error",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " you there are no error so far",
-      "confidence": 0.8885833024978638,
-      "isFinal": true
+      "transcript": " no air",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
     },
     {
-      "transcript": " you are no errors so far",
+      "transcript": " we have no air",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " we have no I",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " we have no",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " we have",
+      "confidence": 0.009999999776482582,
+      "isFinal": false
+    },
+    {
+      "transcript": " thank you",
       "confidence": 0.8999999761581421,
       "isFinal": false
-    },
-    {
-      "transcript": " errors so far",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " are no errors so far",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " are no error sofa",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " know aerosol",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " are no errors",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " are no error",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " are no air",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " know I",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " know",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " darling",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " you darling",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " you turn",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " you",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": "hello how are you doing I am doing fine thank you",
-      "confidence": 0.9428569674491882,
-      "isFinal": true
     },
     {
       "transcript": " you",
@@ -226,27 +231,22 @@
       "isFinal": false
     },
     {
-      "transcript": " fine",
+      "transcript": " that",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " doing fine",
+      "transcript": "hello how are you I'm doing great",
+      "confidence": 0.9546766877174377,
+      "isFinal": true
+    },
+    {
+      "transcript": " great",
       "confidence": 0.009999999776482582,
       "isFinal": false
     },
     {
-      "transcript": " doing",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " I am doing",
-      "confidence": 0.009999999776482582,
-      "isFinal": false
-    },
-    {
-      "transcript": " I am do",
+      "transcript": " I'm doing great",
       "confidence": 0.009999999776482582,
       "isFinal": false
     }

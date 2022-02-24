@@ -19,7 +19,7 @@ http.createServer(function (req, res) {
         });
 
         res.writeHead(200, {'Content-Type': 'text/plain','Access-Control-Allow-Origin': '*'});
-        res.end('{"msg": "OK"}' + body); // removed the callback because it was not relevant in the client code
+        res.end('{"msg": "OK"}'); // removed the callback because it was not relevant in the client code
         
         // req.on('end', function () {
         //    console.log("Body: " + body);// + body
