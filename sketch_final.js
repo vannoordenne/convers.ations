@@ -2,7 +2,7 @@ var counter = 1;
 var xPos;
 var yPos;
 let font;
-var transcriptIsFinal = [{{"transcript": "test", "confidence": 0.1}, " "];
+var transcriptIsFinal = [{"transcript": "test", "confidence": 0.1}, " "];
 let showTranscript = true;
 let sel = 0;
 let fade = 30;
@@ -58,7 +58,9 @@ function drawTranscript(json) {
                 push();
                 textSize(50);
                 fill(255 - (fade * sel));
-                text(transcriptIsFinal[sel].confidence, width / 2, height / 2);
+                rectMode(CENTER);
+                textAlign(CENTER, CENTER)
+                text(transcriptIsFinal[sel].confidence, width / 2, height / 2, width /3);
                 pop();
 
                 if (sel < transcriptIsFinal.length - 1) {

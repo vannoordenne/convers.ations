@@ -4,12 +4,11 @@ const fs = require('fs');
 http.createServer(function (req, res) {
 
     if (req.method === 'POST') {
-        // console.log("POST");
-        // let body = '';
+         // console.log("POST");
+         // let body = '';
         req.on('data', function (data) {
-            //body += data;
-            //console.log("Partial body: " + body);
-
+            // body += data;
+            // console.log("Partial body: " + body);
             fs.writeFile('api_res.json', data, err => {
                 if (err) {
                     console.log('Error writing file', err)
@@ -20,9 +19,8 @@ http.createServer(function (req, res) {
         });
 
         res.writeHead(200, {'Content-Type': 'text/plain','Access-Control-Allow-Origin': '*'});
-        res.end('{"msg": "OK"}'); // removed the callback because it was not relevant in the client code
-
-        // // unsure if this is needed
+        res.end('{"msg": "OK"}' + body); // removed the callback because it was not relevant in the client code
+        
         // req.on('end', function () {
         //    console.log("Body: " + body);// + body
         // });
@@ -33,5 +31,5 @@ http.createServer(function (req, res) {
         res.end('{"msg": "OK"}'); // removed the callback because it was not relevant in the client code
     }
 
-}).listen(8090);
-console.log('Server running on port 8090');
+}).listen(8080);
+console.log('Server running on port 8080');
